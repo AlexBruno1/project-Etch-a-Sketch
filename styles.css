@@ -1,0 +1,44 @@
+
+#grid{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+
+
+    
+}
+
+#scelte {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 700px;
+    border: 2px solid red;
+    
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cel{
+    border: 2px solid black;
+    padding: 2px;
+    display: flex;
+    flex: 1;
+}
+
+.bottone {
+    margin: 10px;
+    padding: 10px;
+}
